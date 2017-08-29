@@ -1,0 +1,23 @@
+{
+  "name": "@trayio/zendesk-app",
+  "version": "1.0.0",
+  "description": "The Tray.io app for the Zendesk marketplace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trayio/zendesk-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trayio/zendesk-app/issues"
+  },
+  "homepage": "https://github.com/trayio/zendesk-app#readme",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}

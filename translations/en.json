@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Tray.io",
+    "short_description": "Automate, your way.",
+    "long_description": "Automate, your way. Boost productivity by connecting cloud apps and automating workflows. No dev resources required.",
+    "installation_instructions": "Simply click install."
+  }
+}

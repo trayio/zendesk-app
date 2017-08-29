@@ -1,0 +1,13 @@
+{
+  "name": "Tray.io",
+  "author": {
+    "name": "Tray.io",
+    "email": "support@tray.io",
+    "url": "https://tray.io/lp/zendesk/demo"
+  },
+  "defaultLocale": "en",
+  "private": false,
+  "location": {},
+  "version": "1.0",
+  "marketingOnly": true
+}
