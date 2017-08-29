@@ -1,14 +1,8 @@
-# App name
+# Tray.io
 
-[brief description of the app]
+This is a marketing-only Zendesk app, to be shown in the Zendesk apps directory.
 
-### The following information is displayed:
+### Bugs and issues
 
-* info1
-* info2
-* info3
+Please submit bug reports as issues on this repository. Pull requests are welcome.
 
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
-
-### Screenshot(s):
-[put your screenshots down here.]
