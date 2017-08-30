@@ -4,7 +4,7 @@
   "description": "The Tray.io app for the Zendesk marketplace.",
   "main": "index.js",
   "scripts": {
-    "build": "node build/compileMarkdown.js && zat validate"
+    "build": "node build/compileMarkdown.js && zat validate && zat package"
   },
   "repository": {
     "type": "git",
