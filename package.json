@@ -4,7 +4,7 @@
   "description": "The Tray.io app for the Zendesk marketplace.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build/compileMarkdown.js && zat validate"
   },
   "repository": {
     "type": "git",

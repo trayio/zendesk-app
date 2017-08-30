@@ -1,0 +1,6 @@
+You can try out Tray.io by [signing up for a free trial](https://tray.io/lp/zendesk/trial?utm_medium=partner&utm_source=directory&utm_campaign=zendesk) or you can [see a personalized demo](https://tray.io/lp/zendesk/demo?utm_medium=partner&utm_source=directory&utm_campaign=zendesk). 
+
+We also recommend reviewing the [Tray.io documentation](https://tray.io/docs), including the [Zendesk Help Article](https://tray.io/docs/article/zendesk).
+
+
+Be sure to check Zapier's Zendesk help documentation if you have any issues connecting your Zendesk account, or reach out to Zapier support.
