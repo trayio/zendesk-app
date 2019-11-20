@@ -4,14 +4,25 @@ This is a marketing-only Zendesk app, to be shown in the Zendesk apps directory.
 
 ### Building
 
-To upload the app, you'll need to compile & package this app as a ZIP file. To do this, run the following
-in your terminal: (Note that you'll need to install the [Zendesk App Tools](https://help.zendesk.com/hc/en-us/articles/229489288))
+To upload the app, you'll need to compile & package this app as a ZIP file. To do this, you must first install [ZAT](https://help.zendesk.com/hc/en-us/articles/229489288) (zendesk_app_tools). To do so run the following in your terminal: 
+
+```
+gem install rake
+gem install zendesk_apps_tools
+```
+
+Or if zat is already installed:
+
+```
+gem update zendesk_apps_tools
+```
+Now you can run the npm script to package the app.
 
 ```
 npm run build
 ```
 
-### Bugs and issues
+This will generate a .zip file in the tmp/ directory. You can now upload this to the zendesk marketplace.
 
-Please submit bug reports as issues on this repository. Pull requests are welcome.
+
 
