@@ -22,7 +22,6 @@ Now you can run the npm script to package the app.
 npm run build
 ```
 
-This will generate a .zip file in the tmp/ directory. You can now upload this to the zendesk marketplace.
-
+This will generate a .zip file in the app/tmp/ directory. You can now upload this to the [zendesk marketplace](https://apps.zendesk.com/apps). The credentials are in the 1password vault under `Zendesk App Management`.
 
 
