@@ -25,3 +25,11 @@ npm run build
 This will generate a .zip file in the app/tmp/ directory. You can now upload this to the [zendesk marketplace](https://apps.zendesk.com/apps). The credentials are in the 1password vault under `Zendesk App Management`.
 
 Once submitted, there is an approval process via Zendesk. Once they approve the app will be published.
+
+### Images
+
+The images must be as follows:
+
+*logo-small.png* - 128x128px image
+*logo.png* - 320x320px image
+*logo.svg* - svg image
