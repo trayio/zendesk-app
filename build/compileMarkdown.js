@@ -17,7 +17,7 @@ keysToCompile.forEach((key) => {
     // Read the existing translation
     let translation;
     try {
-        const json = fs.readFileSync(`${__dirname}/../translations/en.json`).toString();
+        const json = fs.readFileSync(`${__dirname}/../app/translations/en.json`).toString();
         translation = JSON.parse(json);
     } catch (e) {
         throw e;
@@ -25,13 +25,13 @@ keysToCompile.forEach((key) => {
 
 
     // Set the new description based on the markdown
-    const description = fs.readFileSync(`${__dirname}/../copy/${key}.md`).toString();
+    const description = fs.readFileSync(`${__dirname}/../app/copy/${key}.md`).toString();
     translation.app[key] = description;
 
 
     // Update the new JSON pfile
     const prettyJson = JSON.stringify(translation, null, '  ');
-    fs.writeFileSync(`${__dirname}/../translations/en.json`, prettyJson);
+    fs.writeFileSync(`${__dirname}/../app/translations/en.json`, prettyJson);
 
 
     console.log(`Compiled ${key}.md: SUCCESS`);

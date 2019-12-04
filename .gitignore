@@ -1,2 +1,4 @@
 node_modules
 tmp
+.zat
+.DS_Store
