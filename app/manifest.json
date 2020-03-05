@@ -7,7 +7,10 @@
   },
   "defaultLocale": "en",
   "private": false,
-  "location": {},
+  "location": {
+    "support": {},
+    "sell": {}
+  },
   "version": "1.0",
   "marketingOnly": true
 }
